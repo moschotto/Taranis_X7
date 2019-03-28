@@ -21,4 +21,4 @@ Install:
 
 
 
-NOTE: not tested in flight yet ! 
+NOTE: not tested  outside yet ! 
