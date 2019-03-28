@@ -10,7 +10,7 @@ stores GPS coordinates every second into /SCRIPTS/TELEMETRY/GPSpositions.txt
 and displays the last 4 GPS positions on the telemtry screen
 in case that telemetry is not available anymore (crash, power loss etc.) 
 the screen won't be updated but still shows the 4 postions
-if 100 postions are stored, the log will be reset and starts at 0
+if 50 postions are stored, the log will be reset and starts at 0
 ################################################################################]]
 
 log_filename = "/SCRIPTS/TELEMETRY/GPSpositions.txt"
