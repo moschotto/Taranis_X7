@@ -1,5 +1,4 @@
 --[[#############################################################################
-Telemetry Widget script for Taranis50. x7 
 Telemetry Widget script for Taranis x7 
 Copyright (C) by mosch   
 License GPLv2: http://www.gnu.org/licenses/gpl-2.0.html       
