@@ -1,4 +1,4 @@
-# Taranis_X7
+# Taranis X7 GPS last positions Telemetry Screen
 
 Telemetry Widget script for Taranis x7 
 Copyright (C) by mosch   
