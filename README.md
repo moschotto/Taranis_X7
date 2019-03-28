@@ -19,3 +19,6 @@ Install:
 2. Rename GPS.luac to GPSc.lua 
 3. Add a new telemetry screen and select GPSc.lua
 
+
+
+NOTE: not tested in flight yet ! 
