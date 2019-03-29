@@ -22,3 +22,5 @@ Install:
 
 
 NOTE: not tested  outside yet ! 
+
+![Alt text](https://github.com/moschotto/Taranis_X7/blob/master/screenx7.png)
