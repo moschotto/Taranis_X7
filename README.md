@@ -21,7 +21,17 @@ Install:
 4. Add a new telemetry screen and select GPSc.lua
 
 
+Note:
+If the number of satellites won't be updated and everything else works,
+edit the line in the script "GPS.lua". 
+Remove the previous copied GPSc.lua(c) files and copy just the GPS.lua to 
+the radio.
 
-NOTE: not tested  outside yet ! 
+from:
+	gpssatId = getTelemetryId("Tmp2")
+to:
+  gpssatId = getTelemetryId("Sats")
+
+
 
 ![Alt text](https://github.com/moschotto/Taranis_X7/blob/master/screenx7.png)
