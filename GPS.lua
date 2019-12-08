@@ -19,7 +19,7 @@ Depending via which sensor the satellites are reported comment or uncomment the 
 => line 137/138
 gpssatId = getTelemetryId("Tmp2")
 or
---gpssatId = getTelemetryId("Sats")]]
+gpssatId = getTelemetryId("Sats")]]
 
 ################################################################################]]
 
