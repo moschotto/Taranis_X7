@@ -11,6 +11,16 @@ and displays the last 4 GPS positions on the telemtry screen
 in case that telemetry is not available anymore (crash, power loss etc.) 
 the screen won't be updated but still shows the 4 postions
 if 50 postions are stored, the log will be reset and starts at 0
+
+
+If the number of satellites is 0 or won't be updated check the sensors in your radio.
+Depending via which sensor the satellites are reported comment or uncomment the code accordingly
+
+=> line 137/138
+gpssatId = getTelemetryId("Tmp2")
+or
+--gpssatId = getTelemetryId("Sats")]]
+
 ################################################################################]]
 
 log_filename = "/SCRIPTS/TELEMETRY/GPSpositions.txt"
@@ -123,12 +133,14 @@ end
 
 local function init()  
 	gpsId = getTelemetryId("GPS")
+		
 	gpssatId = getTelemetryId("Tmp2")
+	--gpssatId = getTelemetryId("Sats")]]
 end
 
 local function background()	
 	
-	gpsLatLon = getValue(gpsId)
+	gpsLatLon = getValue(gpsId)	
 	gpsSATS = getValue(gpssatId)
 	
 	if (type(gpsLatLon) == "table") then 
