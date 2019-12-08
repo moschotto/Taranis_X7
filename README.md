@@ -28,9 +28,11 @@ edit the line in the script "GPS.lua".
 
 
 from:
+
 gpssatId = getTelemetryId("Tmp2")
 
 to:
+
 gpssatId = getTelemetryId("Sats")
 
 
