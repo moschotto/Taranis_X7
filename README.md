@@ -5,7 +5,7 @@ Telemetry Widget script for Taranis x7 v0.1
 Copyright (C) by mosch   
 License GPLv2: http://www.gnu.org/licenses/gpl-2.0.html       
 
-Desription:
+Description:
 
 stores GPS coordinates every second into /SCRIPTS/TELEMETRY/GPSpositions.txt and 
 displays the last 4 GPS positions and GPS sattelite count on the telemetry screen.
