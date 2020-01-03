@@ -1,6 +1,6 @@
 # Taranis X7 GPS last positions Telemetry Screen
 
-Telemetry Widget script for Taranis x7 v0.1
+Telemetry Widget script for Taranis x7 v1.1
 
 Copyright (C) by mosch   
 License GPLv2: http://www.gnu.org/licenses/gpl-2.0.html       
