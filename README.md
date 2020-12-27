@@ -1,4 +1,11 @@
-# Taranis X7 GPS last positions Telemetry Screen
+
+
+updated scripts for 'all' radios here:
+
+https://github.com/moschotto/OpenTX_GPS_Telemetry
+
+
+Taranis X7 GPS last positions Telemetry Screen
 
 Telemetry Widget script for Taranis x7 v1.1
 
